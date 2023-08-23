@@ -1,4 +1,5 @@
 import {facebook,twitter,instagram} from '../src/assets/icons/index'
+import { customer1,customer2 } from '../src/assets/images';
 export const footerLinks = [
     {
         title: "Products",
@@ -35,3 +36,18 @@ export const socialMedia = [
     { src: twitter, alt: "twitter logo" },
     { src: instagram, alt: "instagram logo" },
 ];
+
+export const reviews=[
+    {
+        imgURL: customer1,
+        customerName: 'Rishabh Kumar',
+        rating: 4.5,
+        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+    },
+    {
+        imgURL: customer2,
+        customerName: 'Rachele Broad',
+        rating: 4.5,
+        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    }
+]

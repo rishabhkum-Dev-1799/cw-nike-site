@@ -8,6 +8,9 @@ export const englishLang={
     signUpForm:'Sign Up for',
     updates:'Updates',
     newsletter:'& Newsletter',
+    customerReviewTitle:'What our Customer Say?',
+    customerReviewText:'Hear genuine stories from our satisfied customers about their exceptional experiences with us.',
+    //placeholder
     email_placeHolder:'Enter your Email',
     // button Labels
     btn_signUp_Label:'SignUp'
