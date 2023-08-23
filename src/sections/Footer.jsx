@@ -19,7 +19,7 @@ const Footer = () => {
           </p>
           <div className="flex gap-4 mt-6 overflow-hidden">
               {socialMedia.map((socialPlatform,index)=>(
-                <button className='flex items-center justify-center rounded-full  bg-white w-12 h-12'>
+                <button className='flex items-center justify-center rounded-full  bg-white w-12 h-12 ' key={index}>
                 <img src={socialPlatform.src} alt={socialPlatform.alt} width={24} height={24} className="object-contain"/>
                 </button>
               ))}
