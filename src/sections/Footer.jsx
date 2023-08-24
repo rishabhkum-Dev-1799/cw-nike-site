@@ -25,7 +25,7 @@ const Footer = () => {
               ))}
           </div>
         </div>
-        <div className=" lg:w-4/6 flex flex-1 flex-wrap gap-20 items-start">
+        <div className=" lg:w-4/6 flex flex-1 flex-wrap gap-20 items-start justify-between">
           {footerLinks && footerLinks.map((footerLink, index) =>( 
           <div key={index} >
             <h3 className='text-white font-montserrat text-xl font-medium mb-6'>{footerLink.title}</h3>
