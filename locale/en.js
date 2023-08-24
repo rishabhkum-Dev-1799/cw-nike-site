@@ -10,8 +10,12 @@ export const englishLang={
     newsletter:'& Newsletter',
     customerReviewTitle:'What our Customer Say?',
     customerReviewText:'Hear genuine stories from our satisfied customers about their exceptional experiences with us.',
+    offerDescriptionOne:'Embark on a shopping journey that redefines your experience with unbeatable deals. From premier selections to incredible savings, we offer unparalleled value that sets us apart.',
+    offerDescriptionTwo:'Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.',
     //placeholder
     email_placeHolder:'Enter your Email',
     // button Labels
-    btn_signUp_Label:'SignUp'
+    btn_signUp_Label:'SignUp',
+    btn_viewDetails:'View Details',
+    btn_learnMore:'Learn More'
 }
