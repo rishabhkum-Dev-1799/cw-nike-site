@@ -14,7 +14,7 @@ const App = () => {
   // Layouting of the single Page application
   return (
     <main>
-      <section className="xl:padding-l wide:padding-r padding-bg ">
+      <section className="xl:padding-l wide:padding-r padding-b ">
         <Suspense fallback={<Loader />}>
           <Hero />
         </Suspense>
