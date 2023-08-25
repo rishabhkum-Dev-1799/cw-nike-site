@@ -14,6 +14,7 @@ export const englishLang={
     offerDescriptionTwo:'Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.',
     qualityDescriptionOne:'Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance.',
     qualityDescriptionTwo:'Our dedication to detail and excellence ensures your satisfaction',
+    popularProductsDescription:'Experience top-notch quality and style with our sought-after selections. Discover a world of comfort, design, and value',
     //placeholder
     email_placeHolder:'Enter your Email',
     // button Labels
