@@ -49,4 +49,11 @@
       .info-text {
         @apply font-montserrat text-slate-gray text-lg leading-7;
       }
+
+      .bg-hero{
+        background-image: url('./assets/images/collection-background.svg');
+      }
+      .bg-card{
+        background-image: url('./assets/images/thumbnail-background.svg');
+      }
   }

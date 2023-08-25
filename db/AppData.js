@@ -1,5 +1,5 @@
 import {facebook,twitter,instagram, truckFast, shieldTick, support} from '../src/assets/icons/index'
-import { customer1,customer2, shoe4, shoe5, shoe6, shoe7 } from '../src/assets/images';
+import { bigShoe1, bigShoe2, bigShoe3, customer1,customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from '../src/assets/images';
 export const footerLinks = [
     {
         title: "Products",
@@ -95,4 +95,25 @@ export const products = [
         price: "$230.20",
         rating:4.2
     },
+];
+
+export const shoes = [
+    {
+        thumbnail: thumbnailShoe1,
+        bigShoe: bigShoe1,
+    },
+    {
+        thumbnail: thumbnailShoe2,
+        bigShoe: bigShoe2,
+    },
+    {
+        thumbnail: thumbnailShoe3,
+        bigShoe: bigShoe3,
+    },
+];
+
+export const statistics = [
+    { value: '1k+', label: 'Brands' },
+    { value: '500+', label: 'Shops' },
+    { value: '250k+', label: 'Customers' },
 ];

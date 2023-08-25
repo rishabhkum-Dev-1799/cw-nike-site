@@ -15,6 +15,8 @@ export const englishLang={
     qualityDescriptionOne:'Ensuring premium comfort and style, our meticulously crafted footwear is designed to elevate your experience, providing you with unmatched quality, innovation, and a touch of elegance.',
     qualityDescriptionTwo:'Our dedication to detail and excellence ensures your satisfaction',
     popularProductsDescription:'Experience top-notch quality and style with our sought-after selections. Discover a world of comfort, design, and value',
+    heroSubtitle:'Our Summer Collections',
+    heroDescription:'Discover stylish Nike arrivals, quality comfort, and innovation for your active life.',
     //placeholder
     email_placeHolder:'Enter your Email',
     // button Labels

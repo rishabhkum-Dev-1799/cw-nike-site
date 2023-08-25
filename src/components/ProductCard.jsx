@@ -3,7 +3,7 @@ import { star } from '../assets/icons'
 
 const ProductCard = ({imgURL,name,price,rating}) => {
   return (
-    <section className='flex flex-1 flex-col w-full max-sm:w-full'>
+    <section className='flex flex-1 flex-col w-full max-sm:w-full cursor-pointer'>
         <div>
           <img src={imgURL} alt={name} width={200} height={200} className='w-[280px] h-[280px]'/>
         </div>
