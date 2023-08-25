@@ -1,4 +1,4 @@
-import { footerLinks,socialMedia,reviews,services,products,shoes,statistics } from "./AppData";
+import { footerLinks,socialMedia,reviews,services,products,shoes,statistics,navLinks } from "./AppData";
 
 export {
     footerLinks,
@@ -7,5 +7,6 @@ export {
     services,
     products,
     shoes,
-    statistics
+    statistics,
+    navLinks
 }

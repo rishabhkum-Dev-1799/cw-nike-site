@@ -1,6 +1,7 @@
 import Loader from "./components/common/Loader";
 import { lazy, Suspense } from "react";
 
+const Header=lazy(()=>import('./sections/Header'))
 const Hero=lazy(()=>import('./sections/Hero'))
 const CustomerReviews=lazy(()=>import('./sections/CustomerReviews'))
 const Footer=lazy(()=>import('./sections/Footer'))
@@ -13,7 +14,10 @@ const SuperQuality=lazy(()=>import('./sections/SuperQuality'))
 const App = () => {
   // Layouting of the single Page application
   return (
-    <main>
+    <main className='relative'>
+      <header className="padding-x py-8 absolute z-10 w-full">
+        <Header/>
+      </header>
       <section className="xl:padding-l wide:padding-r padding-b ">
         <Suspense fallback={<Loader />}>
           <Hero />
